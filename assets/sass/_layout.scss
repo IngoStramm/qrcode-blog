@@ -1,0 +1,102 @@
+// ====== General ====== //
+
+html,
+body {
+    @include regular-font;
+    font-size: var(--fz);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.45em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.8em;
+}
+
+h6 {
+    font-size: 0.65em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.4em;
+}
+
+main#content {
+    padding: 80px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include bold-font;
+    color: var(--blue);
+    margin-bottom: 1.3em;
+    line-height: 1.5em;
+    a {
+        font: inherit;
+        text-decoration: none;
+    }
+}
+h1 {
+    font-size: 1.8rem;
+}
+strong {
+    @include bold-font;
+}
+
+.entry-content {
+    ul {
+        list-style: disc;
+        list-style-position: outside;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        li {
+            line-height: 1.2em;
+            margin-bottom: 0.7em;
+        }
+    }
+
+    a {
+        color: var(--light-blue);
+    }
+}
+
+@media (min-width: 768px) {
+    main#content {
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+}

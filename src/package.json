@@ -1,0 +1,21 @@
+{
+  "name": "qrcode-blog",
+  "version": "1.0.0",
+  "description": "Tema de blog com gerador de QRCode para os posts",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ingo Stramm",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "grunt-zip": "^0.20.0",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^8.0.0"
+  }
+}
