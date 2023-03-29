@@ -51,9 +51,21 @@ function grcb_google_fonts()
 
 add_action('wp_enqueue_scripts', 'grcb_google_fonts');
 
+/**
+ * qrcb_theme_setup
+ *
+ * @return void
+ */
+function qrcb_theme_setup()
+{
+    add_theme_support('title-tag');
+    add_theme_support('custom-logo');
+    add_theme_support('post-thumbnails');
+}
+
+add_action('after_setup_theme', 'qrcb_theme_setup');
+
 // Adiciona custom logo ao tema
-add_theme_support('custom-logo');
-add_theme_support('post-thumbnails');
 
 // Pagination
 
