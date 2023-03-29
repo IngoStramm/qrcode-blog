@@ -1,6 +1,6 @@
 {
   "name": "qrcode-blog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tema de blog com gerador de QRCode para os posts",
   "main": "Gruntfile.js",
   "scripts": {

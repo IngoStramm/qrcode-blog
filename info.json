@@ -1,6 +1,6 @@
 {
     "name": "QRCode Blog",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "download_url": "https://github.com/IngoStramm/qrcode-blog/raw/master/dist/qrcode-blog.zip",
     "homepage": "https://agencialaf.com",
     "requires": "4.7",
